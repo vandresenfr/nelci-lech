@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: rgb(231, 132, 95);
+    color: aliceblue;
+    padding: 16px 0;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header .container,
+section .container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container {
+    display: flex;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.articles article img {
+    height: 400px;
+    width: 100%; 
+    object-fit: cover;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.container h2 {
+    padding: 24px;
+    font-size: 34px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article h3,
+.articles article p {
+    margin-bottom: 10px;
+}
+
+.articles article p {
+    color: black;
+}
+
+.articles article h3, h2 {
+    color:rgb(241, 108, 59);
+}
+
+.articles article button {
+    background-color: rgb(241, 108, 59);
+    padding: 8px;
+    border: none;
+    color: aliceblue;
+    margin-bottom: 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.articles article button:hover {
+    background-color: rgb(236, 156, 126);
+}
+
+#cakes {
+    background-color:rgb(250, 222, 211); 
+}
+
+#salgados {
+    background-color: rgb(250, 222, 211);
+}
+
+#doces {
+    background-color:rgb(250, 222, 211); 
+}
+
+footer {
+    padding: 16px 0;
+    color: aliceblue;
+    background-color: rgb(252, 120, 72);
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-left: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    padding: 8px;
+    margin-bottom: 8px;
+}   
+
+#contact .container h3 {
+    margin-bottom: 8px;
+    color: rgb(241, 108, 59);
+}
+
+form button {
+    cursor: pointer;
+    background-color:rgb(241, 108, 59); 
+    border: none;
+    color: aliceblue;
+    margin-bottom: 16px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+#contact .container button:hover {
+    background-color:  rgb(236, 156, 126);
+}
+
+input:focus {
+    outline-color: rgb(241, 108, 59); 
+}
+
+#contact {
+    background-color:rgb(250, 222, 211); 
+}
+
+
